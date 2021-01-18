@@ -21,6 +21,7 @@
     <modules>
         <module>car-microservice</module>
         <module>user-microservice</module>
+        <module>car-proposal-microservice-with-feign</module>
         <module>spring-cloud-server-config</module>
         <module>eureka</module>
     </modules>
