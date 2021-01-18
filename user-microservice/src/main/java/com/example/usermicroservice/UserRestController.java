@@ -1,6 +1,5 @@
 package com.example.usermicroservice;
 
-import com.example.usermicroservice.infra.dto.Car;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,9 +14,9 @@ public class UserRestController {
     @GetMapping
     public List<User> getAllUsers() {
         return Arrays.asList(
-                new User("Piotr", new Car("Peugeot")),
-                new User("Kasia", new Car("Citroen")),
-                new User("Czesław", new Car("Volkswagen"))
+                new User("Piotr", "Peugeot"),
+                new User("Kasia", "Citroen"),
+                new User("Czesław", "Volkswagen")
         );
     }
 }
