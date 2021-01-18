@@ -19,6 +19,7 @@
 
     <modules>
         <module>car-microservice</module>
+        <module>user-microservice</module>
     </modules>
 
     <build>
