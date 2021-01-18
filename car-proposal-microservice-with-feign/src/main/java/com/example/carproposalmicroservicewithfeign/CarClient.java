@@ -9,6 +9,6 @@ import java.util.List;
 @FeignClient(name = "car")
 public interface CarClient {
 
-    @GetMapping
+    @GetMapping("/car")
     List<Car> getAllCars();
 }

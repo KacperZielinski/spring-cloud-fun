@@ -9,6 +9,6 @@ import java.util.List;
 @FeignClient("user")
 public interface UserClient {
 
-    @GetMapping
+    @GetMapping("/user")
     List<User> getAllUsers();
 }
